@@ -1,0 +1,28 @@
+body{
+	font-family: sans-serif;
+	margin-top: 5px; 
+	margin-bottom: 10px;
+	line-height: 20px;
+	background-color: #FFFEE3;
+}
+
+.text-group{
+	margin-top: 40px;
+	line-height: 25px;
+
+}
+
+.color-text{
+	display: inline;
+	color: blue;
+}
+
+h1{
+	text-align: center; 
+}
+
+h2{
+	text-align: center; 
+}
+
+
