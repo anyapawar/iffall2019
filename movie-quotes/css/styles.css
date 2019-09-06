@@ -1,9 +1,13 @@
 body{
-	font-family: sans-serif;
-	margin-top: 5px; 
+	font-family: monospace;
+	font-size: 20px;
+	margin-top: 50px; 
 	margin-bottom: 10px;
 	line-height: 20px;
-	background-color: #FFFEE3;
+	background-color: white;
+	margin-left: 130px;
+	margin-right: 130px;
+
 }
 
 .text-group{
@@ -15,14 +19,20 @@ body{
 .color-text{
 	display: inline;
 	color: blue;
+	line-height: 30px;
 }
 
 h1{
 	text-align: center; 
+	font-size: 50px; 
 }
 
 h2{
 	text-align: center; 
+}
+
+em{
+	color: grey;
 }
 
 
