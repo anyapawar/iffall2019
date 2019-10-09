@@ -1,0 +1,136 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	color: white;
+}
+
+
+section {
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+
+h1 {
+	font-size: 40px;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+p {
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+
+.contents {
+	padding: 40px 0 40px 0;
+	width: 960px;
+	margin: auto;
+	box-sizing: border-box;
+	border-top: none;
+	border-bottom: none;
+}
+
+section#section1 {
+	background-color: #272E46;
+	background-image: url("turtle-2-770.jpg");
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: #fff;
+	background-size: cover;
+}
+
+section#section1 .contents {
+	height: 480px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 150px;
+}
+
+section#section1 .contents h1 {
+	font-size: 80px;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+section#section1 .contents h2 {
+	font-size: 30px;
+	line-height: 1;
+	margin: 0 0 20px 0;
+	padding: 0;
+	position: relative;
+}
+
+section#section2 {
+	background-color: rgba(0,255,0,.3);
+	border: none;
+	background-color: #58BEDF;
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: black;
+}
+
+section#section2 .contents img {
+	float:right;
+	width: 400px; 
+	height: 300px;
+	margin: 0 0 20px 40px;
+	border: 1px solid #fff;
+}
+
+section#section3 {
+	background-color: rgba(0,0,255,.3);
+	border: none;
+	background-color: white;
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: black;
+}
+
+section#section3 .contents .photo {
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 40px 24px 0;
+	clear: both;
+}
+
+section#section3 .contents .photo img {
+	width: 200px; 
+	height: 150px;
+	margin: 0 12px 0 0;
+	float: left;
+}
+
+section#section3 .contents .photo h3 {
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	padding: 0;
+}
+
+section#section3 .contents .photo p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+section#section4 {
+	background-color: #262F48;
+	color: #fff;
+}
+
+section#section4 h2 {
+	font-size: 26px;
+	text-align: center;
+	font-weight: normal;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+footer {
+	background-color: #444;
+	color: #fff;
+}
