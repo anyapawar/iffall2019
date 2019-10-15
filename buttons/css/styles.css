@@ -1,0 +1,523 @@
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: 0.3s ease;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+				transform: scale(1.1);
+				transition: 0.3s ease;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				
+				transition: 0.3s ease;
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+				transform: scale(1.1);
+				box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+				
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: 0.3s ease;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+				transform: scale(1.1);
+				box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+				transition: 0.3s ease;
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: 0.3s ease;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+				box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+				transition: 0.3s ease;
+			}
+
+			a#btn_cocacola img{
+				width:150px;
+				display: inline-block;
+				margin-top:40px;
+			}
+
+			a#btn_cocacola {
+				background-color:white;
+				display:inline-block;
+				margin-top:60px;
+				transition: 0.3s ease;
+			}
+
+			a#btn_cocacola:hover {
+				transform: scale(1.1);
+				transition: 0.3s;
+				transition: 0.3s ease;
+				animation: shake 0.5s;
+				animation-iteration-count: infinite;
+
+			}
+
+			/* 
+				The following script adds a shaking effect on hover
+				source: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
+
+			/*	begin script*/
+
+			@keyframes shake {
+			  0% { transform: translate(1px, 1px) rotate(0deg); }
+			  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+			  20% { transform: translate(-3px, 0px) rotate(1deg); }
+			  30% { transform: translate(3px, 2px) rotate(0deg); }
+			  40% { transform: translate(1px, -1px) rotate(1deg); }
+			  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			  60% { transform: translate(-3px, 1px) rotate(0deg); }
+			  70% { transform: translate(3px, 1px) rotate(-1deg); }
+			  80% { transform: translate(-1px, -1px) rotate(1deg); }
+			  90% { transform: translate(1px, 2px) rotate(0deg); }
+			  100% { transform: translate(1px, -2px) rotate(-1deg); }
+			}
+
+			/*	end script*/
+
+			a#btn_ibm img:first-child{
+				transform: scale(.8);
+				display: block;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+
+			a#btn_ibm img:last-child{
+				transform: scale(.8);
+				display: none;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+			a#btn_ibm:hover img:first-child{
+				transform: scale(.8);
+				display: none;
+				
+			}
+
+			a#btn_ibm:hover img:last-child{
+				transform: scale(.8);
+				display: block;
+			}
+
+			a#btn_ideo {
+				display: inline-block;
+				margin: auto;
+				margin-top: 0px;
+				margin-left: 5px;
+				border-bottom: solid yellow;
+				border-bottom-width: 8px;
+				font-size: 40px;
+				font-family: 'Roboto Mono', monospace;
+				height: 150px;
+				line-height: 250px;
+				text-align: center;
+				color: black;
+				text-decoration: none;
+				
+			}
+
+			a#btn_ideo:hover {
+				font-size: 70px;
+				overflow-wrap: break-word;
+				border-bottom: none;
+				margin-top: 50px;
+				line-height: 1em;
+				width: 40%;
+				text-align: center;
+				text-decoration: none;
+			}
+
+			a#btn_lyft {
+				transform: scale(.9);
+				color: #EA33BA;
+				display: block;
+				margin: auto;
+				margin-top: 70px;
+				text-decoration: none;
+				font-size: 100px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				width: 170px;
+				height: 100px;
+				padding: 0px 10px 130px 10px;
+				transition: 0.3s ease;
+				
+			}
+
+			a#btn_lyft:hover {
+				transform: scale(0.95);
+				background:linear-gradient(-120deg, #e90B8B, #352384);
+				color: white;
+				transition: 0.3s ease;
+
+			}
+
+			a#btn_samsung img{
+				margin-top: 115px;
+				width: 190px;
+				height: 30px;
+			}
+
+			a#btn_samsung {
+				display: inline;
+				height: 40px;
+				transition: .3s ease;
+				
+			}
+
+			a#btn_samsung img:hover {
+				transform: scale(1.1);
+				transition: .3s ease;
+				
+			}
+
+
+			a#btn_thetonightshow img:first-child{
+				transform: scale(.8);
+				display: block;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+
+			a#btn_thetonightshow img:last-child{
+				transform: scale(.8);
+				display: none;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+			a#btn_thetonightshow:hover img:first-child{
+				transform: scale(.8);
+				display: none;
+				
+			}
+
+			a#btn_thetonightshow:hover img:last-child{
+				transform: scale(.8);
+				display: block;
+			}
+
+			a#btn_nike img{
+				width: 150px;
+			}
+
+			a#btn_nike {
+				display: block;
+				margin: auto;
+				margin-top: 90px;
+				margin-left: 30px;
+				
+			}
+
+			a#btn_nike:hover {
+				transform: scale(1.1);
+				transform:rotate(-10deg);
+				transition: 0.3s;
+				opacity: .6;
+				
+			}
+
+			a#btn_botanicalgarden img:first-child{
+				transform: scale(.8);
+				display: block;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+
+			a#btn_botanicalgarden img:last-child{
+				transform: scale(.8);
+				display: none;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+			a#btn_botanicalgarden:hover img:first-child{
+				transform: scale(.8);
+				display: none;
+				
+			}
+
+			a#btn_botanicalgarden:hover img:last-child{
+				transform: scale(1);
+				display: block;
+				
+			}
+
+			a#btn_newyorker img{
+				width: 200px;
+			}
+
+			a#btn_newyorker {
+				display: block;
+				margin: auto;
+				margin-top: 30px;
+				margin-left: 15px;
+				text-decoration: none;
+				font-size: 25px;
+				
+			}
+
+			a#btn_newyorker:hover {
+				/*The following script adds a blue effect on hover
+				source: https://www.tutorialrepublic.com/css-tutorial/css3-filters.php;*/
+				webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    			filter: blur(4px);
+				transition: 0.3s;
+				
+			}
+
+			a#btn_colorrun {
+				display: block;
+				margin: auto;
+				margin-top: 60px;
+				margin-left: 60px;
+				text-decoration: none;
+				text-align: left;
+				font-size: 40px;
+				font-family: 'Big Shoulders Display', cursive;
+				text-transform: uppercase;
+				color: black;
+				
+			}
+
+			a#btn_colorrun span.the:hover {
+				color: #D53187;
+				
+			}
+
+			a#btn_colorrun span.color:hover {
+				color: #E9DB48;
+				
+			}
+
+			a#btn_colorrun span.run:hover {
+				color: #4DAAE7;
+				
+			}
+
+			a#btn_instagram {
+			
+				transform: scale(.4);
+   				display: inline-block;
+  				width: 250px;
+  				height: 250px;
+  				text-align: center;
+  				border-radius: 40px;
+  				color: black;
+  				font-size: 220px;
+  				line-height: 250px;
+  				transition: 0.3s ease;
+  				
+				
+			}
+
+			a#btn_instagram:hover {
+				transform: scale(0.45);
+				color: white;
+				background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+				box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+				transition: 0.3s ease;
+				
+			}
+
+			a#btn_michaelkors img:first-child{
+				display: block;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+			}
+
+			a#btn_michaelkors img:last-child{
+				display: none;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 200px;
+				opacity: 0;
+				transition: 0.3s;
+			}
+			a#btn_michaelkors:hover img:first-child{
+				display: none;
+				
+			}
+
+			a#btn_michaelkors:hover img:last-child{
+				display: block;
+				opacity: 1;
+				transition: 0.3s;
+			}
+
+
+			a#btn_oldnavy {
+				display: block;
+				margin: auto;
+				margin-top: 90px;
+				padding: 10px 40px 0 40px;
+				text-decoration: none;
+				font-size: 30px;
+				font-family: Helvetica;
+				line-height: 70px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #133661;				
+			}
+
+			a#btn_oldnavy:hover {
+				color: white;
+				background-color: #133661; 
+				border-radius: 50%;
+				transition: 0.3s;
+				
+			}
+
+			a#btn_facebook {
+				color: black;
+				display: block;
+				margin: auto;
+				margin-top: 50px;
+				padding: 10px 40px 0 40px;
+				text-decoration: none;
+				font-size: 100px;
+				transition: 0.3s ease;
+				
+				
+			}
+
+			a#btn_facebook:hover {
+				color: #4A66AD;
+				transform: scale(1.1);
+				transition: 0.3s ease;
+				
+			}
+
+			a#btn_hd img{
+				width: 180px;
+			}
+
+			a#btn_hd {
+				display: block;
+				margin: auto;
+				margin-top: 50px;
+				margin-left: 15px;
+				text-decoration: none;
+				font-size: 25px;
+				
+			}
+
+			a#btn_hd:hover {
+				transition: 0.3s;
+				/*The following script adds a drop shadow to a hover state of an image 
+				source: https://stackoverflow.com/questions/8693733/how-to-give-outer-glow-to-an-object-in-a-transparent-png-using-css3/14260175;*/
+				 -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+     			filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+				
+			}
+
+
+
