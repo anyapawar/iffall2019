@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&display=swap');
+body{
+	margin: 0;
+	max-width: 100%;
+	width: auto;
+
+}
+
+.content{
+	margin: 20px;
+}
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-style: lighter;
+	font-size: 3em; 
+	line-height: 1em;
+	/*text-decoration: none;*/
+}
+
+h1:hover{
+/*	text-decoration: line-through;*/
+}
+
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+	font-size: .8em;
+	line-height: 1em;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+h4{
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+
+img{
+	width: 100%;
+	
+}
+
+.ingredients{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+	font-size: .7em;
+}
+
+/*maybe make this an active state*/
+
+.ingredients:hover{
+	text-decoration: line-through;
+}
