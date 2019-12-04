@@ -344,4 +344,11 @@ li{
 
 }
 
+@media screen and (max-width: 700px){
+	ul{
+		padding-left: 15pt;
+		padding-right: 15pt;
+	}
+}
+
 
