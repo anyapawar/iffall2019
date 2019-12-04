@@ -31,9 +31,7 @@
 
 body{
 	font-family: 'helveticarounded_bold_oblique', 'Varela Round', sans-serif;
-	margin-left: 3%;
-	margin-right: 3%;
-	margin-top: 30px;
+	margin: 0;
 }
 
 h1{
@@ -55,16 +53,15 @@ footer{
 	margin-top: 200px;
 	bottom: 0;
 	width: 100%;
-	margin: 0;
 	height: 200px;
-	padding:0 200px;
+	padding:0 20%;
 	box-sizing: border-box;
 	clear: both;
 }
 .largetext{
 	font-size: 36px;
 	line-height: 46px;
-	margin: 130px;
+	margin: 20%;
 	display: block;
 
 }
@@ -82,6 +79,8 @@ footer{
 	margin-bottom: 50px;
 	padding-top: 30px;
 	padding-bottom: 100px;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 .topnavitem{
@@ -100,6 +99,7 @@ footer{
 	text-align: right;
 	font-style: normal;
 	text-decoration: none;
+	transition: 0.3s ease;
 
 }
 
@@ -113,14 +113,7 @@ footer{
 }
 
 
-.content #light{
-	color: white;
-	background-color: rgba(225,225,225,.1);
-	padding: 30px;
-	border-radius: 15px 15px 15px 15px;
-}
-
-.content #simage{
+#simage{
 	float: right;
 	display: inline-block;
 	margin-top: -150px;
@@ -129,7 +122,6 @@ footer{
 .section, #about{
 	background-color: #215193;
 	line-height: 1.5em;
-	width: 100%;
 }
 
 .section, #text{
@@ -140,60 +132,63 @@ footer{
 .section, #history{
 	background-color: #D46E3E;
 	line-height: 1.5em;
-	width: 100%;
-	height: auto;
 }
 
 .section, #claymations{
 	background-color: #7E5034;
 	line-height: 1.5em;
-	width: 100%;
 }
 
 .section, #picturebooks{
 	background-color: #3B6F3A;
 	line-height: 1.5em;
-	width: 100%;
 }
 
 .section, #cast{
 	background-color: #215193;
 	line-height: 1.5em;
-	width: 100%;
+}
+
+#light{
+	color: white;
+	background-color: rgba(225,225,225,.1);
+	padding: 30px;
+	border-radius: 15px 15px 15px 15px;
 }
 
 .section{
 	color: white;
-	height: 300px;
 	border-radius: 15px 15px 15px 15px;
+	display: block;
+	margin-left: 8%;
+	margin-right: 8%;
+	height: auto;
 }
 
 
-.imagegrid{
-	margin-top: 75px;
-	display: inline-block;
-}
-
-.imagegridpics{
-	width: 15%;
-}
-
-
-.innersection{
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-li{
+ul{
 	background-color: #F0EFEF;
 	padding-left: 30px;
 	padding-right: 30px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+li{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	line-height: 30px;
 
 }
 
+#timeline{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 300px;
+}
+
+.innerhistory{
+	margin: 20%;
+}
 
 .dates{
 	text-decoration: none;
@@ -202,12 +197,106 @@ li{
 
 .dates:active{
 	color: #ED7039;
+	transition: 0.3s ease;
 }
 
 .orange{
 	color: #ED7039
 }
 
+#sources{
+	text-decoration: none;
+	color: #275E82;
+}
+#sources:hover{
+	text-decoration: none;
 
+}
+
+
+@media screen and (max-width: 1400px){
+	.topnav{
+		font-size: 20px;
+		transition: 0.3s ease;
+	}
+
+}
+
+
+@media screen and (max-width: 950px){
+
+	.test{
+		float: left;
+		position: absolute;
+		margin-top: 70px;
+		font-size: 20px;
+		margin-left: 20px;
+
+	}
+
+	.test2{
+		float: left;
+		position: absolute;
+		margin-top: 100px;
+		margin-left: 20px;
+	}
+
+	.test3{
+		float: left;
+		position: absolute;
+		margin-top: 130px;
+		margin-left: 20px;
+	}
+
+
+	.test4{
+		float: left;
+		position: absolute;
+		margin-top: 160px;
+		margin-left: 20px;
+	}
+
+	.test5{
+		float: left;
+		position: absolute;
+		margin-top: 190px;
+		margin-left: 20px;
+	}
+		
+		
+	#simage{
+		display: none;
+	}
+
+	.innersection img{
+		width: 75%;
+		display: block;
+		margin: 8%;
+		float: none;
+	}
+
+	#text{
+		margin-right: 0%;
+	
+	}
+
+	.largetext{
+		margin-left: 0;
+		margin-right: 0;
+	
+	}
+
+	.section{
+		margin-top: 200px;
+	}
+
+	.innerhistory{
+		margin-left: 0px;
+		font-size: .5em;
+		margin-right: 30%;
+	}
+
+
+}
 
 
